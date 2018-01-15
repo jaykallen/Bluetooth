@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="8dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="8dp"
+    android:background="@color/colorBackgroundGray"
+    >
+
+    <TextView
+        android:text="Select a Printer"
+        android:id="@+id/select_label"
+        android:textSize="20sp"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        />
+
+    <TextView
+        android:text="Name"
+        android:id="@+id/name_label"
+        android:textSize="18sp"
+        android:textColor="@color/colorBlack"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_below="@id/select_label"
+        android:layout_marginBottom="4dp"
+        />
+
+    <TextView
+        android:text="Mac Address"
+        android:id="@+id/mac_label"
+        android:textSize="18sp"
+        android:textColor="@color/colorBlack"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/name_label"
+        android:layout_below="@id/select_label"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:layout_below="@id/name_label"
+        />
+
+    <Button
+        android:text="Exit"
+        android:id="@+id/exit_button"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:background="@drawable/button_yellow"
+        android:layout_alignParentBottom="true"
+        android:onClick="onExitClick"
+        />
+
+    <Button
+        android:text="Pair"
+        android:id="@+id/pair_button"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:background="@drawable/button_gray"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="onPairClick"
+        />
+
+    <Button
+        android:text="Print"
+        android:id="@+id/print_button"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:background="@drawable/button_gray"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:onClick="onPrintClick"
+        />
+
+</RelativeLayout>

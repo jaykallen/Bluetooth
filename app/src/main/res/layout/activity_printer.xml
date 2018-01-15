@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="8dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="8dp"
+    android:background="@color/colorBackgroundGray">
+
+
+    <Button
+        android:text="Print Test Line"
+        android:id="@+id/print_test_button"
+        android:onClick="onPrintTestClick"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_gray"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:text="Print Full Label"
+        android:id="@+id/print_full_button"
+        android:onClick="onPrintFullLabelClick"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_gray"
+        android:layout_below="@+id/print_test_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:text="Exit"
+        android:id="@+id/exit_button"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_yellow"
+        android:onClick="onExitClick"
+        android:textAllCaps="false"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="8dp"
+        />
+
+</RelativeLayout>
