@@ -28,7 +28,7 @@ import timber.log.Timber;
 // Unfortunately, for apps targeting api 26 or higher, manifest declared broadcast receivers don't work anymore.
 // https://developer.android.com/guide/components/broadcast-exceptions
 // https://developer.android.com/guide/topics/connectivity/bluetooth.html
-// Note: Make sure all permission are set to on in the settings, or run the app twice and answer yes twice.
+// Note: Make sure all permissions have been allowed in order for bluetooth to work correctly
 
 public class MainActivity extends AppCompatActivity {
     private RecyclerAdapter mRecyclerAdapter;
@@ -212,20 +212,29 @@ public class MainActivity extends AppCompatActivity {
         finish();
     }
 
+
     public void checkPermissions() {
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M && this.checkSelfPermission(
-                Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
-            ActivityCompat.requestPermissions(this, new String[]{
-                    Manifest.permission.READ_EXTERNAL_STORAGE,
-                    Manifest.permission.WRITE_EXTERNAL_STORAGE
-            }, 1);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            String[] permissions = {
+                    Manifest.permission.WRITE_EXTERNAL_STORAGE,
+                    Manifest.permission.ACCESS_COARSE_LOCATION,
+                    Manifest.permission.CAMERA
+            };
+            if (!hasPermissions(permissions)) {
+                ActivityCompat.requestPermissions(this, permissions, 1);
+            }
         }
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M && this.checkSelfPermission(
-                Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
-            ActivityCompat.requestPermissions(this, new String[]{
-                    Manifest.permission.ACCESS_COARSE_LOCATION
-            }, 1);
+    }
+
+    public boolean hasPermissions(String[] permissions) {
+        if (permissions != null) {
+            for (String permission : permissions) {
+                if (ActivityCompat.checkSelfPermission(this, permission) != PackageManager.PERMISSION_GRANTED) {
+                    return false;
+                }
+            }
         }
+        return true;
     }
 
 }

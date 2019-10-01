@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:2:1-32:12
+ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:2:1-33:12
 MERGED from [com.android.support:design:26.1.0] C:\Users\jkallen\.gradle\caches\transforms-2\files-2.1\fc0320cd13bf10cf6d7c97e5692578aa\design-26.1.0\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\jkallen\.gradle\caches\transforms-2\files-2.1\e4a41c2346dd5a38c111db5ef8bb8159\appcompat-v7-26.1.0\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\jkallen\.gradle\caches\transforms-2\files-2.1\c8390c608d9ebd3960e8c9af3469d9e0\constraint-layout-1.1.3\AndroidManifest.xml:2:1-11:12
@@ -20,57 +20,25 @@ MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\jkallen\.gr
 MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\jkallen\.gradle\caches\transforms-2\files-2.1\01fa180fba081b893896aeab7a3b4770\support-core-ui-26.1.0\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\jkallen\.gradle\caches\transforms-2\files-2.1\5971f3a89ffb6bfcd466bd26a390798b\support-compat-26.1.0\AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\jkallen\.gradle\caches\transforms-2\files-2.1\4464663fb769105e8b28960e2589148c\runtime-1.0.0\AndroidManifest.xml:17:1-30:12
-INJECTED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:2:1-33:12
 	package
-		ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:3:11-46
+		ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:3:5-40
 		INJECTED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:2:1-32:12
+		ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:2:1-33:12
 		INJECTED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:2:1-32:12
+		ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:2:1-33:12
 		INJECTED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:2:11-69
-uses-permission#android.permission.BLUETOOTH
-ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:5:5-67
-	android:name
-		ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:5:22-65
-uses-permission#android.permission.BLUETOOTH_ADMIN
-ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:6:5-73
-	android:name
-		ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:6:22-71
-uses-permission#android.permission.ACCESS_LOCATION
-ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:7:5-73
-	android:name
-		ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:7:22-71
-uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:8:5-80
-	android:name
-		ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:8:22-78
-uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:9:5-79
-	android:name
-		ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:9:22-77
-uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:10:5-80
-	android:name
-		ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:10:22-78
-uses-permission#android.permission.READ_INTERNAL_STORAGE
-ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:11:5-79
-	android:name
-		ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:11:22-77
-uses-permission#android.permission.WRITE_INTERNAL_STORAGE
-ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:12:5-80
-	android:name
-		ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:12:22-78
 application
-ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:14:5-30:19
+ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:5:5-22:19
 MERGED from [com.android.support:design:26.1.0] C:\Users\jkallen\.gradle\caches\transforms-2\files-2.1\fc0320cd13bf10cf6d7c97e5692578aa\design-26.1.0\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:design:26.1.0] C:\Users\jkallen\.gradle\caches\transforms-2\files-2.1\fc0320cd13bf10cf6d7c97e5692578aa\design-26.1.0\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\jkallen\.gradle\caches\transforms-2\files-2.1\e4a41c2346dd5a38c111db5ef8bb8159\appcompat-v7-26.1.0\AndroidManifest.xml:25:5-29:19
@@ -102,41 +70,73 @@ MERGED from [com.android.support:support-compat:26.1.0] C:\Users\jkallen\.gradle
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\jkallen\.gradle\caches\transforms-2\files-2.1\4464663fb769105e8b28960e2589148c\runtime-1.0.0\AndroidManifest.xml:24:5-28:19
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\jkallen\.gradle\caches\transforms-2\files-2.1\4464663fb769105e8b28960e2589148c\runtime-1.0.0\AndroidManifest.xml:24:5-28:19
 	android:supportsRtl
-		ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:20:9-35
+		ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:11:9-35
 	android:label
-		ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:18:9-41
+		ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:9:9-41
 	android:roundIcon
-		ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:19:9-54
+		ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:10:9-54
 	android:icon
-		ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:17:9-43
+		ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:8:9-43
 	android:allowBackup
-		ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:16:9-35
+		ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:7:9-35
 	android:theme
-		ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:21:9-40
+		ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:12:9-40
 	android:name
-		ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:15:9-33
+		ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:6:9-33
 activity#com.procatdt.appbluetooth.MainActivity
-ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:22:9-28:20
+ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:13:9-20:20
 	android:name
-		ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:22:19-47
+		ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:13:19-47
 intent-filter#action:name:android.intent.action.MAIN+action:name:android.intent.action.VIEW+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:23:13-27:29
+ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:14:13-19:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:24:17-68
+ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:15:17-69
 	android:name
-		ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:24:25-66
+		ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:15:25-66
 action#android.intent.action.VIEW
-ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:25:17-68
+ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:16:17-69
 	android:name
-		ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:25:25-66
+		ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:16:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:26:17-76
+ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:18:17-77
 	android:name
-		ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:26:27-74
+		ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:18:27-74
 activity#com.procatdt.appbluetooth.PrintActivity
-ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:29:9-51
+ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:21:9-51
 	android:name
-		ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:29:19-48
+		ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:21:19-48
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:23:5-74
+	android:name
+		ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:23:22-71
+uses-permission#android.permission.ACCESS_LOCATION
+ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:24:5-74
+	android:name
+		ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:24:22-71
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:25:5-81
+	android:name
+		ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:25:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:26:5-80
+	android:name
+		ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:26:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:27:5-81
+	android:name
+		ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:27:22-78
+uses-permission#android.permission.READ_INTERNAL_STORAGE
+ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:28:5-80
+	android:name
+		ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:28:22-77
+uses-permission#android.permission.WRITE_INTERNAL_STORAGE
+ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:29:5-81
+	android:name
+		ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:29:22-78
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:31:5-68
+	android:name
+		ADDED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml:31:22-65
 uses-sdk
 INJECTED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\jkallen\AndroidStudioProjects\bluetooth\app\src\main\AndroidManifest.xml
