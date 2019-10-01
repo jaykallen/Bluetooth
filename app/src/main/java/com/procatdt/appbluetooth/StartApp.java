@@ -13,7 +13,7 @@ public class StartApp extends Application {
         Timber.plant(new Timber.DebugTree() {
             @Override
             protected void log(int priority, String tag, String message, Throwable t) {
-                super.log(priority, tag + "Jay", message, t);
+                super.log(priority, tag + "~!@", message, t);
             }
         });
     }
